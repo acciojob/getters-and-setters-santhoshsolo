@@ -25,6 +25,15 @@ class Teacher extends Person {
 	}
 }
 
+function createStudent(){
+	let student = new student('santo, 20');
+	student.study();
+}
+function createTeacher(){
+	let teacher = new Teacher('santos, 25');
+	teacher.teach();
+}
+
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
